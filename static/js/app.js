@@ -9,7 +9,7 @@
 // 
 var dataNames = [];
 // d3.json("samples.json").then(function(data) { 
-d3.json('https://lynaolivares.github.io/Plotly-JavaScript-Challenge/samples.json')
+d3.json('https://lynaolivares.github.io/Plotly-JavaScript-Challenge/samples.json').then(function(data) { 
     // console.log(data)
     dataNames = data.names;
     console.log(dataNames);
