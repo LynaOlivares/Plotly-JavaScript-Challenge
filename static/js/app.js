@@ -8,7 +8,8 @@
 //  samples:  test subject sample results
 // 
 var dataNames = [];
-d3.json("samples.json").then(function(data) { 
+// d3.json("samples.json").then(function(data) { 
+d3.json('https://lynaolivares.github.io/Plotly-JavaScript-Challenge/samples.json')
     // console.log(data)
     dataNames = data.names;
     console.log(dataNames);
